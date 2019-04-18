@@ -485,7 +485,6 @@ class PostUrlTask extends AsyncTask<PostUrlInput, Void, PostUrlResult> {
 
                 outStream.flush();
 
-                Log.d("debug","flush");
             } catch (IOException e) {
                 e.printStackTrace();
                 responseStatus = "POST_ERROR";
