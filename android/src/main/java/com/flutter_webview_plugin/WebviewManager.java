@@ -219,7 +219,7 @@ class WebviewManager {
             boolean allowFileURLs,
             boolean useWideViewPort,
             String invalidUrlRegex,
-            boolean geolocationEnabled
+            boolean geolocationEnabled,
             boolean isPost,
             Map<String, Object> body
     ) {
